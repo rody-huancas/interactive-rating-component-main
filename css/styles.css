@@ -139,6 +139,20 @@ body {
   color: var(--light-grey);
 }
 
+/*********attribution*********/
+.attribution {
+  text-align: center;
+  margin-top: -150px;
+  color: var(--white);
+  font-size: 14px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--orange);
+  font-size: 16px;
+}
+
 /*********active*********/
 .active {
   display: none;
