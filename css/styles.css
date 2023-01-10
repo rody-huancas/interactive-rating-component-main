@@ -67,8 +67,9 @@ body {
   justify-content: space-around;
 }
 
-.front .front-numbers span {
+.front .front-numbers input {
   text-align: center;
+  border: none;
   background-color: var(--dark-blue);
   color: var(--light-grey);
   border-radius: 50%;
@@ -76,14 +77,15 @@ body {
   transition: all 0.5s ease;
 }
 
-.front .front-numbers span:hover {
-  background-color: var(--medium-grey);
+.front .front-numbers input:hover {
+  background-color: var(--orange);
   color: var(--white);
   cursor: pointer;
 }
 
-.front .front-numbers span:active {
-  background-color: var(--orange);
+.front .front-numbers input:focus {
+  background-color: var(--medium-grey);
+  color: var(--white);
 }
 
 .front .front-btn {
